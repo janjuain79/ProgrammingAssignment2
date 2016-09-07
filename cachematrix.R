@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+## This Function is going to be used to create a Cache Matrix 
+
+
 makeCacheMatrix <- function(x = matrix())
 {
   invMatrix <- NULL
@@ -23,6 +26,8 @@ makeCacheMatrix <- function(x = matrix())
 
 
 ## Write a short comment describing this function
+
+## This function is going to inverse the Matrix and Save it if does not exist earlier and will use the existing one if alrady cached
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
